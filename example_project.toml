@@ -1,0 +1,56 @@
+name = "Chapter 3"
+code_name = "c3"
+compile_args_base = ["-Wall", "-Wextra", "-Werror"]
+compile_args_tail = ["-lcriterion"]
+# grading will occur in delivery/student_login/c3
+delivery_folder = "delivery"
+grader_folder = "grader"
+
+[[tasks]]
+name = "swap_int"
+mandatory_files = ["swap_int.c"]
+optional_files = []
+test_files = ["swap_int.c"]
+
+[[tasks]]
+name = "strlen"
+mandatory_files = ["strlen.c"]
+optional_files = []
+test_files = ["strlen.c"]
+
+[[tasks]]
+name = "puts"
+mandatory_files = ["puts.c"]
+optional_files = ["putchar.c", "strlen.c"]
+test_files = ["puts.c"]
+
+[[tasks]]
+name = "strcmp"
+mandatory_files = ["strcmp.c"]
+optional_files = []
+test_files = ["strcmp.c"]
+
+[[tasks]]
+name = "strcpy"
+mandatory_files = ["strcpy.c"]
+optional_files = []
+test_files = ["strcpy.c"]
+
+[[tasks]]
+name = "strcat"
+mandatory_files = ["strcat.c"]
+optional_files = []
+test_files = ["strcat.c"]
+
+[[tasks]]
+name = "strchr"
+mandatory_files = ["strchr.c"]
+optional_files = []
+test_files = ["strchr.c"]
+
+[[tasks]]
+name = "strdupcat"
+mandatory_files = ["strdupcat.c"]
+optional_files = []
+test_files = ["strdupcat.c"]
+
